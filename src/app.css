@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  /* Color System */
+  --color-scale-gray-0: #ffffff;
+  --color-scale-gray-50: #f9fafb;
+  --color-scale-gray-100: #f3f4f6;
+  --color-scale-gray-200: #e5e7eb;
+  --color-scale-gray-300: #d1d5db;
+  --color-scale-gray-400: #9ca3af;
+  --color-scale-gray-500: #6b7280;
+  --color-scale-gray-600: #4b5563;
+  --color-scale-gray-700: #374151;
+  --color-scale-gray-800: #1f2937;
+  --color-scale-gray-900: #111827;
+  --color-scale-gray-950: #030712;
+  
+  /* Cyan Brand Colors */
+  --color-brand-50: #ecfeff;
+  --color-brand-100: #cffafe;
+  --color-brand-200: #a5f3fc;
+  --color-brand-300: #67e8f9;
+  --color-brand-400: #22d3ee;
+  --color-brand-500: #06b6d4;
+  --color-brand-600: #0891b2;
+  --color-brand-700: #0e7490;
+  --color-brand-800: #155e75;
+  --color-brand-900: #164e63;
+  
+  /* Special Use Orange Colors */
+  --color-special-orange-50: #fff7ed;
+  --color-special-orange-100: #ffedd5;
+  --color-special-orange-200: #fed7aa;
+  --color-special-orange-300: #fdba74;
+  --color-special-orange-400: #fb923c;
+  --color-special-orange-500: #f97316;
+  --color-special-orange-600: #ea580c;
+  --color-special-orange-700: #c2410c;
+  --color-special-orange-800: #9a3412;
+  --color-special-orange-900: #7c2d12;
+  
+  /* Dark Theme */
+  color-scheme: dark;
+  color: var(--color-scale-gray-100);
+  background-color: var(--color-scale-gray-950);
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-scale-gray-950);
+  color: var(--color-scale-gray-100);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  font-weight: 600;
+  color: var(--color-scale-gray-0);
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--color-scale-gray-950);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-scale-gray-900);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-scale-gray-700);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-scale-gray-600);
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+}
+
+/* Selection styles */
+::selection {
+  background: var(--color-brand-500);
+  color: var(--color-scale-gray-0);
+}

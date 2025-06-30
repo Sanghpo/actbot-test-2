@@ -1,0 +1,25 @@
+React 18+ with TypeScript for type safety and developer experience
+Expo-compatible configuration for seamless mobile conversion
+Tailwind CSS for styling (minimal, modern aesthetic inspired by Perplexity UI)
+React Query/TanStack Query for efficient data fetching and caching
+React Router for navigation with lazy loading
+Context API for localized state management
+Feature-based folder structure following atomic design principles
+Modular component design with clear separation of concerns
+Maximum 300 lines per component file
+Components organized in src/features/ with self-contained modules
+Shared utilities in src/shared/ directory
+Custom hooks for business logic separation
+Implement React.lazy() for component-level code splitting
+Use React.memo, useMemo, and useCallback for render optimization
+Configure webpack for production build optimization
+Lazy load non-critical components and routes
+Implement efficient caching strategies for API responses
+ESLint and Prettier configuration for consistent formatting
+Comprehensive TypeScript interfaces for all props and state
+JSDoc comments for all functions and components
+Input validation using react-hook-form with yup schema validation
+Error boundaries for graceful error handling
+Minimal, clean design with strategic use of whitespace
+Limited color palette with neutral tones and accent colors
+Fast loading with no heavy graphics or excessive animations
